@@ -10,7 +10,7 @@ export const Navibar = () => {
       <Navbar.Collapse id="responsive-navbar">
         <Nav className="mr-auto">
           <Nav.Link href="/">Калькулятор</Nav.Link>
-          <Nav.Link href="/price">Прайс</Nav.Link>
+          <Nav.Link href="/price">Стоимость материалов</Nav.Link>
           <Nav.Link href="/history">История</Nav.Link>
         </Nav>
         <Nav>

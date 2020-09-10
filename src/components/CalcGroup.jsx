@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Card from "react-bootstrap/Card";
 
 export const CalcGroup = ({ name, totalPrice, children }) => {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   const headerClickHandler = () => {
     setIsOpen(!isOpen);
