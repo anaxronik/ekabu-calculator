@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { CalcGroup } from "../../components/CalcGroup";
 import { Row, Col, Form, Button } from "react-bootstrap";
 import firebase from "../../db/firebase";
 
